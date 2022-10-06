@@ -545,10 +545,10 @@ impl Value {
                     }
                 })
             }
-            (v, s) => Some(format!(
-                "Unsupported value-schema combination: \nValue: {:?},\nSchema: {:?}",
-                v, s
-            )),
+            (v, s) => {
+                debug!("Unsupported value-schema ({:?}-{:?}) combination:", v, s);
+                Some("Unsupported value-schema combination".to_string())
+            }
         }
     }
 
@@ -2652,11 +2652,10 @@ Field with name '"b"' is not a member of the map items"#,
         struct TestStructFixedField<'a> {
             #[serde(serialize_with = "avro_serialize_bytes")]
             bytes_field: &'a [u8],
+            #[serde(serialize_with = "avro_serialize_bytes")]
             vec_field: Vec<u8>,
             #[serde(serialize_with = "avro_serialize_fixed")]
             fixed_field: [u8; 6],
-            // #[serde(with = "serde_bytes")]
-            // #[serde(with = "serde_bytes")]
         }
 
         let test = TestStructFixedField {
