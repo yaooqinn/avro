@@ -2476,7 +2476,6 @@ Field with name '"b"' is not a member of the map items"#,
 
     fn avro_3674_with_or_without_namespace(with_namespace: bool) {
         use crate::ser::Serializer;
-        use serde::Serialize;
 
         let schema_str = r#"{
             "type": "record",
@@ -2565,7 +2564,6 @@ Field with name '"b"' is not a member of the map items"#,
 
     fn avro_3688_schema_resolution_panic(set_field_b: bool) {
         use crate::ser::Serializer;
-        use serde::{Deserialize, Serialize};
 
         let schema_str = r#"{
             "type": "record",
