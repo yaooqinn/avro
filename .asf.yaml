@@ -48,3 +48,7 @@ notifications:
   # Send individual PR comments/reviews to issues@
   pullrequests_comment: issues@avro.apache.org
   jira_options: link label worklog
+
+publish:
+  whoami: asf-site
+  subdir: asf-site
