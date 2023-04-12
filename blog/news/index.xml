@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Avro – News About Apache Avro</title><link>/asfsite/blog/news/</link><description>Recent content in News About Apache Avro on Apache Avro</description><generator>Hugo -- gohugo.io</generator><atom:link href="/asfsite/blog/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: New PMC member: Martin Grigorov</title><link>/asfsite/blog/2022/09/13/new-pmc-member-martin-grigorov/</link><pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate><guid>/asfsite/blog/2022/09/13/new-pmc-member-martin-grigorov/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Avro – News About Apache Avro</title><link>/asf-site/blog/news/</link><description>Recent content in News About Apache Avro on Apache Avro</description><generator>Hugo -- gohugo.io</generator><atom:link href="/asf-site/blog/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: New PMC member: Martin Grigorov</title><link>/asf-site/blog/2022/09/13/new-pmc-member-martin-grigorov/</link><pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate><guid>/asf-site/blog/2022/09/13/new-pmc-member-martin-grigorov/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -16,7 +16,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 &lt;p>The Project Management Committee (PMC) for Apache Avro is pleased to announce that Martin Grigorov has accepted our invitation to become a PMC member. He has has been active, reliable and responsive to the community and a solid contributor to various SDKs, bringing well-thought out reviews and comments to both old and new PRs and JIRA. He definitely stepped up for the website refactoring and preparing for the 1.11.1 release!&lt;/p>
-&lt;p>Please join me in welcoming Martin to the Avro PMC!&lt;/p></description></item><item><title>Blog: New committer: Zoltan Csizmadia</title><link>/asfsite/blog/2022/03/29/new-committer-zoltan-csizmadia/</link><pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate><guid>/asfsite/blog/2022/03/29/new-committer-zoltan-csizmadia/</guid><description>
+&lt;p>Please join me in welcoming Martin to the Avro PMC!&lt;/p></description></item><item><title>Blog: New committer: Zoltan Csizmadia</title><link>/asf-site/blog/2022/03/29/new-committer-zoltan-csizmadia/</link><pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate><guid>/asf-site/blog/2022/03/29/new-committer-zoltan-csizmadia/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -48,7 +48,7 @@ established code and the expectations of modern C# developers.&lt;/p>
 there is no need to go via the patch submission process. This should
 enable better productivity.&lt;/p>
 &lt;p>Please join me in congratulating Zoltan on his recognition of great
-work thus far in our community.&lt;/p></description></item><item><title>Blog: New committer: Martin Grigorov</title><link>/asfsite/blog/2022/01/04/new-committer-martin-grigorov/</link><pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate><guid>/asfsite/blog/2022/01/04/new-committer-martin-grigorov/</guid><description>
+work thus far in our community.&lt;/p></description></item><item><title>Blog: New committer: Martin Grigorov</title><link>/asf-site/blog/2022/01/04/new-committer-martin-grigorov/</link><pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate><guid>/asf-site/blog/2022/01/04/new-committer-martin-grigorov/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -75,7 +75,7 @@ I&amp;rsquo;m especially keen to point out the work he&amp;rsquo;s been doing on
 &lt;p>Being a committer enables easier contribution to the
 project since there is no need to go via the patch
 submission process. This should enable better productivity.&lt;/p>
-&lt;p>It&amp;rsquo;s great to have you as part of the team, Martin!&lt;/p></description></item><item><title>Blog: New committer: David Mollitor</title><link>/asfsite/blog/2021/10/05/new-committer-david-mollitor/</link><pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate><guid>/asfsite/blog/2021/10/05/new-committer-david-mollitor/</guid><description>
+&lt;p>It&amp;rsquo;s great to have you as part of the team, Martin!&lt;/p></description></item><item><title>Blog: New committer: David Mollitor</title><link>/asf-site/blog/2021/10/05/new-committer-david-mollitor/</link><pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate><guid>/asf-site/blog/2021/10/05/new-committer-david-mollitor/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -102,7 +102,7 @@ reactive and pleasant to talk with on code reviews and JIRA.&lt;/p>
 &lt;p>Being a committer enables easier contribution to the
 project since there is no need to go via the patch
 submission process. This should enable better productivity.&lt;/p>
-&lt;p>It&amp;rsquo;s great to have you as part of the team, David!&lt;/p></description></item><item><title>Blog: Avro joins Apache</title><link>/asfsite/blog/2009/04/10/avro-joins-apache/</link><pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate><guid>/asfsite/blog/2009/04/10/avro-joins-apache/</guid><description>
+&lt;p>It&amp;rsquo;s great to have you as part of the team, David!&lt;/p></description></item><item><title>Blog: Avro joins Apache</title><link>/asf-site/blog/2009/04/10/avro-joins-apache/</link><pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate><guid>/asf-site/blog/2009/04/10/avro-joins-apache/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
