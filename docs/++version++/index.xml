@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Avro – Apache Avro™ ++version++ Documentation</title><link>/asf-site/docs/++version++/</link><description>Recent content in Apache Avro™ ++version++ Documentation on Apache Avro</description><generator>Hugo -- gohugo.io</generator><atom:link href="/asf-site/docs/++version++/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Getting Started (Java)</title><link>/asf-site/docs/++version++/getting-started-java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/getting-started-java/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Avro – Apache Avro™ ++version++ Documentation</title><link>/asfsite/docs/++version++/</link><description>Recent content in Apache Avro™ ++version++ Documentation on Apache Avro</description><generator>Hugo -- gohugo.io</generator><atom:link href="/asfsite/docs/++version++/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Getting Started (Java)</title><link>/asfsite/docs/++version++/getting-started-java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/getting-started-java/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -17,7 +17,7 @@ under the License.
 -->
 &lt;p>This is a short guide for getting started with Apache Avro™ using Java. This guide only covers using Avro for data serialization; see Patrick Hunt&amp;rsquo;s &lt;a href="https://github.com/phunt/avro-rpc-quickstart">Avro RPC Quick Start&lt;/a> for a good introduction to using Avro for RPC.&lt;/p>
 &lt;h2 id="download">Download&lt;/h2>
-&lt;p>Avro implementations for C, C++, C#, Java, PHP, Python, and Ruby can be downloaded from the &lt;a href="/asf-site/asf-site/project/download/">Apache Avro™ Download&lt;/a> page. This guide uses Avro &amp;#43;&amp;#43;version&amp;#43;&amp;#43;, the latest version at the time of writing. For the examples in this guide, download avro-&amp;#43;&amp;#43;version&amp;#43;&amp;#43;.jar and avro-tools-&amp;#43;&amp;#43;version&amp;#43;&amp;#43;.jar.&lt;/p>
+&lt;p>Avro implementations for C, C++, C#, Java, PHP, Python, and Ruby can be downloaded from the &lt;a href="/asfsite/asfsite/project/download/">Apache Avro™ Download&lt;/a> page. This guide uses Avro &amp;#43;&amp;#43;version&amp;#43;&amp;#43;, the latest version at the time of writing. For the examples in this guide, download avro-&amp;#43;&amp;#43;version&amp;#43;&amp;#43;.jar and avro-tools-&amp;#43;&amp;#43;version&amp;#43;&amp;#43;.jar.&lt;/p>
 &lt;p>Alternatively, if you are using Maven, add the following dependency to your POM:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-xml" data-lang="xml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">&amp;lt;dependency&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">&amp;lt;groupId&amp;gt;&lt;/span>org.apache.avro&lt;span style="color:#204a87;font-weight:bold">&amp;lt;/groupId&amp;gt;&lt;/span>
@@ -183,7 +183,7 @@ under the License.
 &lt;p>This example code is included as a Maven project in the examples/java-example directory in the Avro docs. From this directory, execute the following commands to build and run the example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>$ mvn compile
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ mvn -q exec:java -Dexec.mainClass&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>example.GenericMain
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Getting Started (Python)</title><link>/asf-site/docs/++version++/getting-started-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/getting-started-python/</guid><description>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Getting Started (Python)</title><link>/asfsite/docs/++version++/getting-started-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/getting-started-python/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -268,7 +268,7 @@ under the License.
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>We open the file again, this time for reading back from disk. We use a DataFileReader and DatumReader analagous to the DataFileWriter and DatumWriter above.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">user&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#000">reader&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">user&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The DataFileReader is an iterator that returns dicts corresponding to the serialized items.&lt;/p></description></item><item><title>Docs: Specification</title><link>/asf-site/docs/++version++/specification/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/specification/</guid><description>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The DataFileReader is an iterator that returns dicts corresponding to the serialized items.&lt;/p></description></item><item><title>Docs: Specification</title><link>/asfsite/docs/++version++/specification/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/specification/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -1052,7 +1052,7 @@ For example, the following schema represents decimal numbers with a maximum prec
 &lt;p>A &lt;code>local-timestamp-micros&lt;/code> logical type annotates an Avro &lt;code>long&lt;/code>, where the long stores the number of microseconds, from 1 January 1970 00:00:00.000000.&lt;/p>
 &lt;h3 id="duration">Duration&lt;/h3>
 &lt;p>The &lt;code>duration&lt;/code> logical type represents an amount of time defined by a number of months, days and milliseconds. This is not equivalent to a number of milliseconds, because, depending on the moment in time from which the duration is measured, the number of days in the month and number of milliseconds in a day may differ. Other standard periods such as years, quarters, hours and minutes can be expressed through these basic periods.&lt;/p>
-&lt;p>A &lt;code>duration&lt;/code> logical type annotates Avro &lt;code>fixed&lt;/code> type of size 12, which stores three little-endian unsigned integers that represent durations at different granularities of time. The first stores a number in months, the second stores a number in days, and the third stores a number in milliseconds.&lt;/p></description></item><item><title>Docs: Java API</title><link>/asf-site/docs/++version++/api-java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/api-java/</guid><description>
+&lt;p>A &lt;code>duration&lt;/code> logical type annotates Avro &lt;code>fixed&lt;/code> type of size 12, which stores three little-endian unsigned integers that represent durations at different granularities of time. The first stores a number in months, the second stores a number in days, and the third stores a number in milliseconds.&lt;/p></description></item><item><title>Docs: Java API</title><link>/asfsite/docs/++version++/api-java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/api-java/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -1069,7 +1069,7 @@ KIND, either express or implied. See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-&lt;p>The Javadocs can be found &lt;a href="/asf-site/docs/++version++/api/java/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: C API</title><link>/asf-site/docs/++version++/api-c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/api-c/</guid><description>
+&lt;p>The Javadocs can be found &lt;a href="/asfsite/docs/++version++/api/java/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: C API</title><link>/asfsite/docs/++version++/api-c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/api-c/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -1086,7 +1086,7 @@ KIND, either express or implied. See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-&lt;p>The C API documentation can be found &lt;a href="/asf-site/docs/++version++/api/c/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: C++ API</title><link>/asf-site/docs/++version++/api-c++/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/api-c++/</guid><description>
+&lt;p>The C API documentation can be found &lt;a href="/asfsite/docs/++version++/api/c/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: C++ API</title><link>/asfsite/docs/++version++/api-c++/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/api-c++/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -1103,7 +1103,7 @@ KIND, either express or implied. See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-&lt;p>The C++ API documentation can be found &lt;a href="/asf-site/docs/++version++/api/cpp/html/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: C# API</title><link>/asf-site/docs/++version++/api-csharp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/api-csharp/</guid><description>
+&lt;p>The C++ API documentation can be found &lt;a href="/asfsite/docs/++version++/api/cpp/html/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: C# API</title><link>/asfsite/docs/++version++/api-csharp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/api-csharp/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -1120,7 +1120,7 @@ KIND, either express or implied. See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-&lt;p>The C# API documentation can be found &lt;a href="/asf-site/docs/++version++/api/csharp/html/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: MapReduce guide</title><link>/asf-site/docs/++version++/mapreduce-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/mapreduce-guide/</guid><description>
+&lt;p>The C# API documentation can be found &lt;a href="/asfsite/docs/++version++/api/csharp/html/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: MapReduce guide</title><link>/asfsite/docs/++version++/mapreduce-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/mapreduce-guide/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -1455,7 +1455,7 @@ under the License.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="learning-more">Learning more&lt;/h2>
 &lt;p>The mapred API allows users to mix Avro AvroMappers and AvroReducers with non-Avro Mappers and Reducers and the mapreduce API allows users input Avro and output non-Avro or vice versa.&lt;/p>
-&lt;p>The mapred package has API org.apache.avro.mapred documentation as does the &lt;code>org.apache.avro.mapreduce&lt;/code> package. MapReduce API (&lt;code>org.apache.hadoop.mapreduce&lt;/code>). Similarily to the mapreduce package, it&amp;rsquo;s possible with the mapred API to implement your own Mappers and Reducers directly using the public classes provided in these libraries. See the &lt;code>AvroWordCount&lt;/code> application, found under &lt;em>examples/mr-example/src/main/java/example/AvroWordCount.java&lt;/em> in the Avro documentation, for an example of implementing a Reducer that outputs Avro data using the old MapReduce API. See the &lt;code>MapReduceAvroWordCount&lt;/code> application, found under &lt;em>examples/mr-example/src/main/java/example/MapReduceAvroWordCount.java&lt;/em> in the Avro documentation, for an example of implementing a Reducer that outputs Avro data using the new MapReduce API.&lt;/p></description></item><item><title>Docs: IDL Language</title><link>/asf-site/docs/++version++/idl-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/idl-language/</guid><description>
+&lt;p>The mapred package has API org.apache.avro.mapred documentation as does the &lt;code>org.apache.avro.mapreduce&lt;/code> package. MapReduce API (&lt;code>org.apache.hadoop.mapreduce&lt;/code>). Similarily to the mapreduce package, it&amp;rsquo;s possible with the mapred API to implement your own Mappers and Reducers directly using the public classes provided in these libraries. See the &lt;code>AvroWordCount&lt;/code> application, found under &lt;em>examples/mr-example/src/main/java/example/AvroWordCount.java&lt;/em> in the Avro documentation, for an example of implementing a Reducer that outputs Avro data using the old MapReduce API. See the &lt;code>MapReduceAvroWordCount&lt;/code> application, found under &lt;em>examples/mr-example/src/main/java/example/MapReduceAvroWordCount.java&lt;/em> in the Avro documentation, for an example of implementing a Reducer that outputs Avro data using the new MapReduce API.&lt;/p></description></item><item><title>Docs: IDL Language</title><link>/asfsite/docs/++version++/idl-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/idl-language/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
@@ -1583,11 +1583,11 @@ under the License.
 &lt;h3 id="logical-types">Logical Types&lt;/h3>
 &lt;p>Some of the logical types supported by Avro&amp;rsquo;s JSON format are also supported by Avro IDL. The currently supported types are:&lt;/p>
 &lt;ul>
-&lt;li>&lt;em>decimal&lt;/em> (logical type &lt;a href="/asf-site/asf-site/docs/++version++/specification/#decimal">decimal&lt;/a>)&lt;/li>
-&lt;li>&lt;em>date&lt;/em> (logical type &lt;a href="/asf-site/asf-site/docs/++version++/specification/#date">date&lt;/a>)&lt;/li>
-&lt;li>&lt;em>time_ms&lt;/em> (logical type &lt;a href="/asf-site/asf-site/docs/++version++/specification/#time-millisecond-precision">time-millis&lt;/a>)&lt;/li>
-&lt;li>&lt;em>timestamp_ms&lt;/em> (logical type &lt;a href="/asf-site/asf-site/docs/++version++/specification/#timestamp-millisecond-precision">timestamp-millis&lt;/a>)&lt;/li>
-&lt;li>&lt;em>uuid&lt;/em> (logical type &lt;a href="/asf-site/asf-site/docs/++version++/specification/#uuid">uuid&lt;/a>)&lt;/li>
+&lt;li>&lt;em>decimal&lt;/em> (logical type &lt;a href="/asfsite/asfsite/docs/++version++/specification/#decimal">decimal&lt;/a>)&lt;/li>
+&lt;li>&lt;em>date&lt;/em> (logical type &lt;a href="/asfsite/asfsite/docs/++version++/specification/#date">date&lt;/a>)&lt;/li>
+&lt;li>&lt;em>time_ms&lt;/em> (logical type &lt;a href="/asfsite/asfsite/docs/++version++/specification/#time-millisecond-precision">time-millis&lt;/a>)&lt;/li>
+&lt;li>&lt;em>timestamp_ms&lt;/em> (logical type &lt;a href="/asfsite/asfsite/docs/++version++/specification/#timestamp-millisecond-precision">timestamp-millis&lt;/a>)&lt;/li>
+&lt;li>&lt;em>uuid&lt;/em> (logical type &lt;a href="/asfsite/asfsite/docs/++version++/specification/#uuid">uuid&lt;/a>)&lt;/li>
 &lt;/ul>
 &lt;p>For example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">record&lt;/span> &lt;span style="color:#000">Job&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span>
@@ -1611,7 +1611,7 @@ under the License.
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">number&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="default-values">Default Values&lt;/h3>
-&lt;p>Default values for fields may be optionally specified by using an equals sign after the field name followed by a JSON expression indicating the default value. This JSON is interpreted as described in the &lt;a href="/asf-site/asf-site/docs/++version++/specification/#schema-record">spec&lt;/a>.&lt;/p>
+&lt;p>Default values for fields may be optionally specified by using an equals sign after the field name followed by a JSON expression indicating the default value. This JSON is interpreted as described in the &lt;a href="/asfsite/asfsite/docs/++version++/specification/#schema-record">spec&lt;/a>.&lt;/p>
 &lt;h3 id="complex-types">Complex Types&lt;/h3>
 &lt;h4 id="arrays">Arrays&lt;/h4>
 &lt;p>Array types are written in a manner that will seem familiar to C++ or Java programmers. An array of any type t is denoted &lt;code>array&amp;lt;t&amp;gt;&lt;/code>. For example, an array of strings is denoted &lt;code>array&amp;lt;string&amp;gt;&lt;/code>, and a multidimensional array of Foo records would be &lt;code>array&amp;lt;array&amp;lt;Foo&amp;gt;&amp;gt;&lt;/code>.&lt;/p>
@@ -1774,7 +1774,7 @@ and &lt;a href="https://github.com/jonesetc/atom-language-avro">GitHub&lt;/a>&lt
 &lt;h3 id="vim">Vim&lt;/h3>
 &lt;p>A &lt;code>.avdl&lt;/code> detecting plugin by Gurpreet Atwal on &lt;a href="https://github.com/gurpreetatwal/vim-avro">GitHub&lt;/a> (Last change in December 2016)&lt;/p>
 &lt;p>&lt;a href="https://github.com/apache/avro/blob/master/share/editors/avro-idl.vim">avro-idl.vim&lt;/a> in the Avro repository &lt;code>share/editors&lt;/code> directory (last change in September 2010)&lt;/p>
-&lt;p>Both provide syntax highlighting.&lt;/p></description></item><item><title>Docs: SASL profile</title><link>/asf-site/docs/++version++/sasl-profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asf-site/docs/++version++/sasl-profile/</guid><description>
+&lt;p>Both provide syntax highlighting.&lt;/p></description></item><item><title>Docs: SASL profile</title><link>/asfsite/docs/++version++/sasl-profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/asfsite/docs/++version++/sasl-profile/</guid><description>
 &lt;!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements. See the NOTICE file
